@@ -7,7 +7,7 @@ app = (Flask(__name__))
 def index(prof):
     param = {}
     param['prof'] = prof
-    return render_template('base.html', **param)
+    return render_template('trainings.html', **param)
 
 
 if __name__ == '__main__':
